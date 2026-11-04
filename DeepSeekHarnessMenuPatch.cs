@@ -1,4 +1,4 @@
-﻿// DeepSeekHarnessMenuPatch - 为 DeepSeek Harness 桌面版解锁“刷新页面 / 重启应用与 Host”两个菜单项。
+// DeepSeekHarnessMenuPatch - 为 DeepSeek Harness 桌面版解锁“刷新页面 / 重启应用与 Host”两个菜单项。
 //
 // 原理：安装目录 resources\app.asar 内 lib/main.js 的菜单模板里有
 //     ...development ? [ ...重新加载菜单项... ] : [],
@@ -25,7 +25,7 @@ internal sealed class ToolException : Exception
 
 internal static class Program
 {
-    private const string ToolVersion = "1.0.0";
+    private const string ToolVersion = "0.1.0";
     private const string DevToken = "development";          // 11 字节
     private const string PatchToken = "true||false";        // 11 字节
     private const string InstallPrefix = "development ? [";
