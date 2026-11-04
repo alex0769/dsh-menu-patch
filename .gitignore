@@ -1,0 +1,17 @@
+# 构建产物与临时文件
+bin/
+obj/
+*.bak
+*.bak-*
+
+# app.asar 备份（约 180MB，绝不入库）
+*.asar
+app.asar*
+
+# 本地发布/测试临时目录
+.publish-tmp/
+
+# 编辑器
+.vs/
+.vscode/
+*.user
